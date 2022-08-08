@@ -85,3 +85,9 @@ una carpeta con nombre (partial)
 despues  un archivo head.ejs (ahi se colocar html)
 
 <%- include ('partials/head') %>
+
+Para añadir una imagen en header , lo coloco en index
+tambien estoy  posicionado y cambaido el tamaño de la imagen
+ <header class= "container vh-100 d-flex justify-content-center align-items-center ">
+      <img src="/img/zorro.png" alt="" class="w-25  ">
+    </header>
