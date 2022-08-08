@@ -75,4 +75,13 @@ la llamamos la variable asi
 
 <h2><%= title %></h2>
 
+para añadir mi css a express debod unino o llamalo
 
+app.use(express.static(join(_dirname,'public')))
+
+recuerda para agregar una parte de tu html por 
+fragemento seria asi, pero primero 
+una carpeta con nombre (partial)
+despues  un archivo head.ejs (ahi se colocar html)
+
+<%- include ('partials/head') %>
