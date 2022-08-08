@@ -91,3 +91,22 @@ tambien estoy  posicionado y cambaido el tamaño de la imagen
  <header class= "container vh-100 d-flex justify-content-center align-items-center ">
       <img src="/img/zorro.png" alt="" class="w-25  ">
     </header>
+
+Se agrego  este scrip al packe json 
+ "scripts": {
+    "dev": "nodemon src/index.js",
+    "start":"node src/index.js"
+  }
+
+  y tambien se agrego el puerto
+
+app.listen(process.env.PORT || 3000)
+console.log('serve is listening on port', process.env.PORT ||3000);
+
+por utlimo se logeo  y se mando  heroku 
+
+link!!!
+
+https://aplicazero.herokuapp.com/about
+
+  
